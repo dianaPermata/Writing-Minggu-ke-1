@@ -38,6 +38,8 @@ Perhitungan Luas Persegi Panjang
 3. Luas persegi panjang adalah panjang * lebar
 4. Tampilkan luas persegi panjang 
 - **Penerapan algoritma luas persegi panjang ke dalam bahasa pemrograman C++**
+
+```
 #include <iostream>
   using namespace std;
   int main (){
@@ -48,12 +50,15 @@ Perhitungan Luas Persegi Panjang
   cin>>l;
   cout<<"Luas Persegi panjang = "; cout<<(p*l)
   }
+  ```
 
 - **Penerapan algoritma luas persegi panjang ke dalam bahasa pemrograman javascript**
-  function luasPersegiPanjang(panjang, lebar){
-    return panjang*lebar;
-}
 
-console.log(luasPersegiPanjang(10,6));
-
+ ```
+ function luasPersegiPanjang(panjang, lebar){
+ return panjang*lebar;
+ }
+ console.log(luasPersegiPanjang(10,6));
+ ```
+ 
 
