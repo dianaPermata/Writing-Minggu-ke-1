@@ -55,10 +55,13 @@ Perhitungan Luas Persegi Panjang
 - **Penerapan algoritma luas persegi panjang ke dalam bahasa pemrograman javascript**
 
  ```
- function luasPersegiPanjang(panjang, lebar){
- return panjang*lebar;
- }
- console.log(luasPersegiPanjang(10,6));
+let i= 1;
+
+for ( i=1; i<10; i++) {
+    if(i%2==0){
+    console.log(i);
+    }
+}
  ```
  
 
