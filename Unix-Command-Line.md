@@ -24,7 +24,7 @@
     - Rm-R (hapus file). 
     - Rm-d (hapus direktori).
 
-##**Algoritma**
+## **Algoritma**
 - **Algoritma** adalah urutan logis untuk memecahkan masalah secara logis dan sistematis. Dengan kata lain, dalam kehidupan sehari - hari kita sudah menerapkan algoritma untuk memecahkan suatu masalah. 
  &nbsp;
 - **Manfaat algoritma** : 
@@ -32,8 +32,28 @@
 2. Mempermudah pembuatan program yang dapat menyelesaikan masalah tertentu.
 3. Membantu menyelesaikan suatu masalah dengan logika dan juga sistematis.
 - **Contoh algoritma sederhana** : 
+Perhitungan Luas Persegi Panjang
 1. Masukkan panjang 
 2. Masukkan lebar
 3. Luas persegi panjang adalah panjang * lebar
 4. Tampilkan luas persegi panjang 
+- **Penerapan algoritma luas persegi panjang ke dalam bahasa pemrograman C++**
+#include <iostream>
+  using namespace std;
+  int main (){
+  int p, l;
+  cout<<"Masukkan panjang = ";
+  cin>>p;
+  cout<<"Masukkan lebar= ";
+  cin>>l;
+  cout<<"Luas Persegi panjang = "; cout<<(p*l)
+  }
+
+- **Penerapan algoritma luas persegi panjang ke dalam bahasa pemrograman javascript**
+  function luasPersegiPanjang(panjang, lebar){
+    return panjang*lebar;
+}
+
+console.log(luasPersegiPanjang(10,6));
+
 
