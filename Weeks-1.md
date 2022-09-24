@@ -35,18 +35,47 @@
   <div align="justify"> Dengan menggunakan Git dann Github, kita bisa berkolaborasi mengerjakan proyek yang sama dengan orang lain tanpa harus repot  copy paste folder aplikasi yang terupdate. Selain itu juga, kita tidak perlu menunggu rekan dalam satu tim menyelesaikan program dahulu untuk berkolaborasi. Kita juga bisa membuat file di dalam proyek yang sama atau membuat code di file yang sama dan menyatukannya saat sudah selesai.
    
  - ### Contoh Alur kerja dari git & github 
-   1. Membuat repository baru dengan menggunakan git init. jika folder sudah ada sebelumnya menggunakan.....
-   2. Memeriksa kondisi file dengan menggunakan git status. 
-   3. Setelah cek status dengan ‘git status’, selanjutnya kita ubah status ‘untrackted file’ dan ‘unmodified’ menjadi modified. Tapi gimana kalau untracked file nya dalam jumlah besar
-    4. Lakukan ‘git commit’ untuk save perubahan pada version control.Dan kita bisa menambahkan pesan untuk membeikan checkout pada setiap perbuahan. contohnya "git commit -m "pesan checkout"
-    5. Setelah itu lakukan git push origin, untuk mempublish file atau aplikasi ke github. 
-   6. 
+   - Membuat repository baru dengan menggunakan git init. jika folder sudah ada sebelumnya menggunakan.....
+   - Memeriksa kondisi file dengan menggunakan git status. 
+   - Setelah cek status dengan ‘git status’, selanjutnya kita ubah status ‘untrackted file’ dan ‘unmodified’ menjadi modified. Tapi gimana kalau untracked file nya dalam jumlah besar. menampilkan daftar commits yang ada di branch beserta detail-nya.
+   - Lakukan ‘git commit’ untuk save perubahan pada version control.Dan kita bisa menambahkan pesan untuk membeikan checkout pada setiap perbuahan. contohnya "git commit -m "pesan checkout".
+   - Setelah itu mempublish file ke github dengan melakukan git remote untuk menghubungkan repository lokal ke remote server. 
+   - selanjutnya, lakukan git push origin  untuk mempublish file ke github. 
    
+- ### Cara cloning github ke local : 
+   -
+   -
+   -
 
-
+## **HTML**
+- #### **HTML** (Hypertext Markup Language) adalah bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. HTML berperan dalam menampilkan konten pada browser dengan menggunakan tag html.
+### Tools utama yang harus dipersiapkan untuk membuat HTML :
+   1. Browser
+   2. Code editor
+### Dasar - dasar HTML 
+ - Kita bisa menuliskan HTML tanpa structure dan kita bisa tetap menjalankan nya tetapi untuk menjalankannya dengan baik kita perlu HTML Structure. HTML structure atau yang disebut dengan kerangka HTML seperti di bawah ini : 
+   Dalam kerangka HTML terdapat <!DOCTYPE> syntax mendefinisikan versi dari HTML yang digunakan dan harus dideklarasi sebelum tag <html> dan 3 tag utama, yaitu <html>,<head>, dan <body> : 
+   first item <html></html> adalah root element dari halaman HTML. Semua HTML tag lainnya harus dibungkus dengan tag ini.
+   second item <head>  berisi <meta>, <title>, konten css/js internal maupun link ke file css/js eksternal. 
+   third item <body> berisi konten website yang ingin ditampilkan pada browser.
+  - **HTML Element** merupakan sebuah komponen dalam halaman web, bisa berupa paragraf, judul, atau gambar. struktur dari HTML elemen seperti di bawah ini : 
+    Pada gambar di atas HTML elemen terdiri dari : 
+    1. Opening tag (tag pembuka)
+    2. Closing tag (tag penutup)
+    3. Attribute 
+    4. Konten
+  - Selain HTML elemen, juga terdapat empty HTML element dimana memiliki Self-closing Tag, yang hanya memiliki Opening Tag (tag pembuka) dengan garis miring sebelum kurung tutup. Contohnya adalah <br /> atau <img />. 
+  - Salah satu contoh tag HTML 
+    - tag untuk membuat tulisan tebal dan miring 
+    - tag untuk menuliskan link
+    - Tag untuk membuat daftar/list
+    - Tag untuk menampilkan gambar/image. 
+   - **Semantic HTML**
+   Dalam 
+    
    
    
- 
+   
 
 ## **Algoritma**
 - **Algoritma** adalah urutan logis untuk memecahkan masalah secara logis dan sistematis. Dengan kata lain, dalam kehidupan sehari - hari kita sudah menerapkan algoritma untuk memecahkan suatu masalah. 
