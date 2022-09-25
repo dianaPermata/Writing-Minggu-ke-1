@@ -149,6 +149,11 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
      - p merupakan selector berupa element HTML yang akan diubah. 
      - color merupakan properti berupa bagian mana dari element HTML yang akan diubah. 
      - value merupakan nilai/hiasan. 
+	   
+	   
+	   
+## **Javascript Dasar**
+
       
   
         
@@ -182,17 +187,13 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
    - Pseudo code : penulisan algoritma yang menyerupai kode programan. 
    
 - #### Contoh algoritma sederhana** :
-   **Menampilkan deret angka genap sampai 10**
-   - Siapkan i = 1
-   - Apakah i <= 10 dan bilangan genap ?
-   - Jika ya, ke no 5
-   - Jika tidak, ke no 8
-   - Tampilkan i
-   - Jumlahkan i dengan 1
-   - Kembali ke no 2
-   - Proses selesai
+   **Perhitungan luas persegi panjang**
+   - Masukkan Panjang
+   - Masukkan lebar
+   - Luas persegi panjang= panjang * lebar
+   - Tampilkan hasil luas persegi panjang.
    
-- #### Penerapan algoritma luas persegi panjang ke dalam bahasa pemrograman C++
+- #### Penerapan algoritma perhitungan luas persegi panjang ke dalam bahasa pemrograman C++
 
 ```
 #include <iostream>
@@ -207,16 +208,14 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
   }
   ```
 
-- #### Penerapan algoritma urutan bilangan genap sampai 10 ke dalam bahasa pemrograman javascript
+- #### Penerapan algoritma perhitungan luas persegi panjang ke dalam bahasa pemrograman javascript
 
  ```
-let i= 1;
-
-for ( i=1; i<10; i++) {
-    if(i%2==0){
-    console.log(i);
-    }
-}
+let p=10;
+let l=5;
+let luasPersegipanjang=p*l;
+	  
+console.log((luasPersegipanjang));
  ```
  
 
