@@ -37,18 +37,20 @@
 - #### Pentingnya menggunakan git & github
   <div align="justify"> Dengan menggunakan Git dann Github, kita bisa berkolaborasi mengerjakan proyek yang sama dengan orang lain tanpa harus repot  copy paste folder aplikasi yang terupdate. Selain itu juga, kita tidak perlu menunggu rekan dalam satu tim menyelesaikan program dahulu untuk berkolaborasi. Kita juga bisa membuat file di dalam proyek yang sama atau membuat code di file yang sama dan menyatukannya saat sudah selesai.
    
- - #### Contoh Alur kerja dari git & github 
-   - Membuat repository baru dengan menggunakan git init. jika folder sudah ada sebelumnya menggunakan.....
-   - Memeriksa kondisi file dengan menggunakan git status. 
-   - Setelah cek status dengan ‘git status’, selanjutnya kita ubah status ‘untrackted file’ dan ‘unmodified’ menjadi modified. Tapi gimana kalau untracked file nya dalam jumlah besar. menampilkan daftar commits yang ada di branch beserta detail-nya.
-   - Lakukan ‘git commit’ untuk save perubahan pada version control.Dan kita bisa menambahkan pesan untuk membeikan checkout pada setiap perbuahan. contohnya "git commit -m "pesan checkout".
-   - Setelah itu mempublish file ke github dengan melakukan git remote untuk menghubungkan repository lokal ke remote server. 
-   - selanjutnya, lakukan git push origin  untuk mempublish file ke github. 
-   
-- #### Cara cloning github ke local : 
-   -
-   -
-   -
+ - #### Command di dalam git & github
+   - Git config : 
+   - Git init : untuk membuat repository baru. 
+   - Git clone : perintah yang digunakan untuk membuat salinan repository lokal
+   - Git status : sebuah perintah yang digunakan untuk memeriksa kondisi repository mengalami perubahan atau tidak.
+   - Git add : digunakan untuk menambahkan file ke staging. Bisa menggunakan git add. atau git add index.html.
+   - Git commit : untuk melakukan commit atau menyimpan perubahan pada version control pada git. 
+   - Git log : digunakan untuk melihat history perubahan pada file atau riwayat commit yang sudah dijalankan.
+   - Git diff : digunakan untuk melihat detail perubahan.
+   - Git checkout :digunakan untuk kembali ke commit tertentu atau berpindah branch lain.
+   - Git reset : digunakan untuk reset files ke sebuah commit, perubahan di branch yang dihapus menjadi `untracked file`.
+   - Git revert : digunakan untuk undo commit, perubahan disimpan dalam commit. Git revert akan membatalkan semua perubahan yang ada tanpa menghapus commit terakhir.
+   - Git branch : digunakan untuk membuat branch.
+   - Git push origin : untuk mempublish file atau aplikasi ke github.
 
    
 ## **HTML**
@@ -141,13 +143,13 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
        <div align="justify"> Dengan cara menyisipkan kode CSS dengan cara membuat file CSS terpisah, dan lalu menyambungkannya dengan file HTML dengan menggunakan element ```<link>```. Element ```<link>``` tersebut diletakkan di dalam element ```<head>```. 
  - #### CSS Syntax 
    <div align="justify"> Adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value. 
-![Screenshot 2022-09-25 121507](https://user-images.githubusercontent.com/113364526/192129430-7bbc8913-4a98-4587-b31e-231e07176f92.png)
-   - p merupakan selector berupa element HTML yang akan diubah. 
-   - color merupakan properti berupa bagian mana dari element HTML yang akan diubah. 
-   - value merupakan nilai/hiasan. 
       
-- #### Website Responsive 
-  <div align="justify"> Sebuah teknik atau metode bagi web designer untuk membuat suatu layout website yang dapat menyesuaikan diri sesuai dengan ukuran layar pengguna.
+ ![Screenshot 2022-09-25 121507](https://user-images.githubusercontent.com/113364526/192129430-7bbc8913-4a98-4587-b31e-231e07176f92.png)
+      
+     - p merupakan selector berupa element HTML yang akan diubah. 
+     - color merupakan properti berupa bagian mana dari element HTML yang akan diubah. 
+     - value merupakan nilai/hiasan. 
+      
   
         
 
