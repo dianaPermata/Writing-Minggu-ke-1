@@ -153,7 +153,96 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
 	   
 	   
 ## **Javascript Dasar**
+- #### Apa itu Javascript ?
+  <div align="justify"> Adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website. Javascript juga dapat membuat website menjadi interaktif dan dinamis. Sjavascript dijalankan melalui browser pada devise setiap user dan code editor. 
 
+- #### Syntax dan statement 
+  <div align="justify"> Syntax bisa dianalogikan seperti kosa kata (vocabulary) dan tata cara (grammar) pada bahasa pemograman. Kita menggunakan syntax tertentu untuk membuat statement program, instruksi untuk dijalankan/dieksekusi oleh web browser, compiler, ataupun intrepreter. Contoh syntax javascript : 
+	  
+  - Alert()
+  - prompt()
+  - confirm()
+
+- #### Console log 
+   <div align="justify"> Console log adalah tempat kita untuk cek logic pemrograman web yang kita kembangkan. Console log juga merupakan tempat untuk melakukan debugging(mengetahui error pada code) pada pemrograman web.
+	  
+- #### Comments 
+  <div align="justify"> Adalah sintaks yang digunakan untuk memberi keterangan tentang suatu statement. Comment dapat menggunakan bahasa inggris atau bahasa indonesia. Comments tidak akan dijalankan oleh program karena hanya untuk dibaca oleh sesama programmer ataupun diri sendiri untuk memahami maksud dan tujuan sebuah statement/syntax. Comment terdapat 2 jenis yakni Single comments & Multiline comments
+
+- #### Tipe data 
+ <div align="justify"> Adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming. Ada 6 tipe data fundametal javascript.
+	 
+  1. Number : tipe data yang mengandung semua angka termasuk angka desimal.
+	 
+	 ``` 
+	     let angka = 10;
+	     let umur = 20;
+	     let desimal = 3.14; 
+	 ```
+  2. String : deretan karakter yang diapit oleh sepasang tanda kutip baik single quotes maupun double quotes.
+	 
+	 ```
+	   let nama = "Diana Permata Putri"
+	 ```
+  3. Boolean :  tipe data yang hanya mempunyai 2 buah nilai yait ``` true``` (benar) or  ```false```  (salah).
+	 
+	 ```
+	    let a=true;
+	    let b=false;
+	 ```
+   4.  Null : sebuah nilai yang berarti kosong atau menunjuk pada nilai yang tidak ada. Tipe data null biasanya diperoleh dalam kondisi normal dan sudah kita rencanakan.
+	 
+	 ```
+	   let data_satu= null;
+	   let data_dua = "";
+	 
+	   console.log(data_satu);//null
+	   console.log(data_dua);// kosong
+	 ```
+	 
+  5. Undefined : Berbeda dengan null, tipe data ini merepresentasikan varibel/data yang tidak memiliki nilai. Tipe data undefined biasanya didapat dari hasil kesalahan program (error), kelalaian programmer, dan tidak direncanakan. Undefined didapat dari hasil berikut: 
+    - Nilai dari pemanggilan variabel yang belum didefinisikan.
+    - Nilai dari pemanggilan element array yang tidak ada.
+    - Nilai dari pemanggilan property objek yang tidak ada.
+    - Nilai dari pemanggilan fungsi yang tidak mengembalikan nilai (return).
+    - Nilai dari parameter fungsi yang tidak memiliki argumen.
+	 
+	 ```
+	   let a = "Hello World";
+	   let b = "Namaku Diana Permata Putri";
+	 
+	   console.log(d); //undefined
+	   console.log(b); // "Namaku Diana Permata Putri"
+	 ```
+	 
+   6. Object : sebuah kumpulan pasangan properti dan nilai. Seperti objek dalam kehidupan sehari-hari saja. Misalnya objek ``` jeruk ``` memiliki properti warna dengan nilai ``` orange ``` . 
+	 
+	 ```
+	   let manusia = {
+	        nama:"Diana Permata Putri",
+	        age:20,
+	        Hobby:"Menyanyi"
+	   };
+	 ```
+	 
+- #### Variabel
+   <div align="justify"> Adalah container/tempat untuk menyimpan sebuah nilai. Di dalam bahasa pemrograman javascript terdapat 3 variable yaitu
+  
+     - Var : 
+     - Let : 
+     - Const : 
+
+- #### Operator 
+     - Assignent operator (=) : digunakan untuk menyimpan sebuah nilai pada variabel. 
+     - Increment (++) dan decrement (--) : digunakan    
+	 
+	 
+
+
+
+	  
+	   
+	
       
   
         
