@@ -170,7 +170,7 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
   <div align="justify"> Adalah sintaks yang digunakan untuk memberi keterangan tentang suatu statement. Comment dapat menggunakan bahasa inggris atau bahasa indonesia. Comments tidak akan dijalankan oleh program karena hanya untuk dibaca oleh sesama programmer ataupun diri sendiri untuk memahami maksud dan tujuan sebuah statement/syntax. Comment terdapat 2 jenis yakni Single comments & Multiline comments
 
 - #### Tipe data 
- <div align="justify"> Adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming. Ada 6 tipe data fundametal javascript.
+   <div align="justify"> Adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming. Ada 6 tipe data fundametal javascript.
 	 
   1. Number : tipe data yang mengandung semua angka termasuk angka desimal.
 	 
@@ -230,27 +230,56 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
   
      - Var : 
      - Let : 
-     - Const : 
+     - Const :
+   <div align="justify"> Aturan penamaan variabel : 
+	   
+    - Harus mendeskripsikan tentang data yang disimpan
+    - Tidak bisa menggunakan number pada awal nama variabel
+    - Gunakan camelcase untuk penamaan yang lebih dari 1 kata
 
 - #### Operator 
-     - Assignent operator (=) : digunakan untuk menyimpan sebuah nilai pada variabel. 
-     - Increment (++) dan decrement (--) : digunakan    
-	 
-	 
-
-
-
-	  
+     - Assignent operator (=) digunakan untuk menyimpan sebuah nilai pada variabel. 
+     - Increment (++) dan decrement (--) digunakan untuk menambah atau mengurangi sebesar 1.
+     - Arithmetic operator (operator matematika) yang terdiri dari penambahan (+), pengurangan (-), perkalian (*), Pembagian (/), modulus (%). 
+     - Comparison operator adalah operator yang membandingkan satu nilai dengan nilai lainnya. Comparison operator melibatkan ``` true ``` dan ``` false ``` . simbol dari comparison operator : 
 	   
-	
-      
-  
-        
+	   ```
+               - Lebih besar dari  (>)
+	       - Lebih kecil dari (<)
+               - Lebih kecil atau sama dengan (<=)
+               - Lebih besar atau sama dengan (>=)
+               - Sama dengan (===)
+               - Tidak sama dengan: (!==)
+	    ``` 
+	 
+     - Logical Operator, biasa digunakan untuk sebuah conditional pada pemrograman yang menghasilkan nilai ``` true ``` dan ``` false ``` . Simbol dari logical operator diantaranya sebagai berikut : 
+	   
+	   ```
+	     - AND operator (&&) : menghasilkan nilai true jika kedua semua premis bernilai benar. 
+	     - OR operator (||) : menghasilkan nilai true jika salah satu premis mengandung nilai true.
+	     - NOT operator (!) : membalikkan sebuah nilai BOOLEAN. TRUE menjadi FALSE dan sebaliknya.
+	   ```
+	   
+- #### Conditional 
+   <div align="justify"> Adalah statement percabangan yang menggambarkan suatu kondisi. Di javascript terdapat beberapa perintah conditional yaitu: 
+	   
+     - **if statement** : Digunakan apabila hanya ada 1 kondisi dan 1 keputusan yang dijalankan.
+    - **if...else statement** : Digunakan apabila hanya ada 1 kondisi dan 2 keputusan yang dijalankan. Else disini akan mengeksekusi sebuah statement/code jika suatu kondisi bernilai ``` false ``` .
+    - **if...else if statement** : Digunakan apabila ada beberapa kondisi dan beberapa keputusan yang dijalankan.
+    - **Truthy & falshy** : digunakan untuk mengecek apakah variabel telah terisi namun tidak mementingkan nilainya.
+    - **Switch case conditional** :  digunakan jika kondisi dan percabangan terlalu banyak. akan tetapi switch case tidak bisa lebih dari 1 kondisi. 
+    <div align="justify"> Ternary operator merupakan short-syntax dari statement if … else.
 
-      
-  
-      
-      
+	   
+ - #### Looping  
+     <div align="justify"> Adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai. Ada beberapa jenis loop di javascript, yaitu : 
+	    
+	 - **For loop** : instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan.
+	 - **While loop** : instruksi pengulangan kondisi bernilai ``` true ``` . while dapat digunakan untuk mengetahui jumlah pasti pengulangan. 
+	  - **Do while** : mengeksekusi kode pemrograman tanpa melakukan pengecekan kondisionalnya, bahkan pengecekan tersebut dilakukan setelah mengeksekusi kode programnya.
+	  - **Nested loop** : digunakan untuk membuat looping di dalam looping. Dimana looping pertama dianalogikan sebagai baris dan yang kedua dianalogikan sebagai kolom. 
+	     
+	       
 ## **Algoritma**
 - #### Algoritma 
   <div align="justify"> Adalah urutan logis untuk memecahkan masalah secara logis dan sistematis. Dengan kata lain, dalam kehidupan sehari - hari kita sudah menerapkan algoritma untuk memecahkan suatu masalah. 
