@@ -130,9 +130,31 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
 
    
 ## **CSS**
+- #### Apa itu CSS ? 
+  <div align="justify"> CSS adalah bahasa yang digunakan untuk mendesain halaman website. Dengan menggunakan CSS, kita bisa mengubah warna, menggunakan font custom, editing text format, mengatur tata letak, dll. 
+- #### Cara menyisipkan CSS ke dalam file HTML.
+     - **Inline CSS**
+       <div align="justify"> Dengan memberikan attribute style kepada sebuah element dengan menyisipkannya langsung di dalam element HTML tersebut.
+     - **Internal CSS**
+       <div align="justify"> Dengan menggunakan element <style> untuk menyisipkan kode CSS. Element <style> diletakkan di dalam element  ```<head>``` .
+     - **External CSS**
+       <div align="justify"> Dengan cara menyisipkan kode CSS dengan cara membuat file CSS terpisah, dan lalu menyambungkannya dengan file HTML dengan menggunakan element ```<link>```. Element ```<link>``` tersebut diletakkan di dalam element ```<head>```. 
+ - #### CSS Syntax 
+   <div align="justify"> Adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value. 
+![Screenshot 2022-09-25 121507](https://user-images.githubusercontent.com/113364526/192129430-7bbc8913-4a98-4587-b31e-231e07176f92.png)
+   - p merupakan selector berupa element HTML yang akan diubah. 
+   - color merupakan properti berupa bagian mana dari element HTML yang akan diubah. 
+   - value merupakan nilai/hiasan. 
+      
+- #### Website Responsive 
+  <div align="justify"> Sebuah teknik atau metode bagi web designer untuk membuat suatu layout website yang dapat menyesuaikan diri sesuai dengan ukuran layar pengguna.
   
-   
-   
+        
+
+      
+  
+      
+      
 ## **Algoritma**
 - **Algoritma** adalah urutan logis untuk memecahkan masalah secara logis dan sistematis. Dengan kata lain, dalam kehidupan sehari - hari kita sudah menerapkan algoritma untuk memecahkan suatu masalah. 
 
