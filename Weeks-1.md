@@ -158,21 +158,41 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
       
       
 ## **Algoritma**
-- **Algoritma** adalah urutan logis untuk memecahkan masalah secara logis dan sistematis. Dengan kata lain, dalam kehidupan sehari - hari kita sudah menerapkan algoritma untuk memecahkan suatu masalah. 
+- #### Algoritma 
+  <div align="justify"> Adalah urutan logis untuk memecahkan masalah secara logis dan sistematis. Dengan kata lain, dalam kehidupan sehari - hari kita sudah menerapkan algoritma untuk memecahkan suatu masalah. 
 
-- **Manfaat algoritma** : 
-1. Membantu menyederhanakan suatu program yang rumit dan juga besar.
-2. Mempermudah pembuatan program yang dapat menyelesaikan masalah tertentu.
-3. Membantu menyelesaikan suatu masalah dengan logika dan juga sistematis.
+- #### Manfaat algoritma : 
+   - Membantu menyederhanakan suatu program yang rumit dan juga besar.
+   - Mempermudah pembuatan program yang dapat menyelesaikan masalah tertentu.
+   - Membantu menyelesaikan suatu masalah dengan logika dan juga sistematis.
+      
+- #### Ciri - ciri algoritma diantaranya : 
+  - Input : memiliki 0 atau lebih inputan. 
+  - Output : memiliki min 1 buah output.
+  - Definiteness : Instruksi jelas dan tidak ambigu.
+  - effectiveness : algoritma yang dibuat tepat sasaran dan efisien. 
+- #### Algoritma sendiri, memiliki beberapa proses diantaranya : 
+   - Sequence : Instruksi yg dijalankan secara berurutan.
+	- Selection : Instruksi yg dijalankan jika memenuhi suatu kondisi.
+	- Iteration : Instruksi yg berulang kali dijalankan selama memenuhi suatu kondisi.
+	- Concurrent : Instruksi yg dijalankan secara bersamaan.
+- #### Algoritma dapat disajikan dengan beberapa cara : 
+	- Deskriptif : penulisan algoritma dengan cara deksriptif menggunakan bahasa sehari - hari. 
+	- Flowchart atau diagram alir : penyajian algoritma dengan tampilan visual yang menggunakan simbol bangun datar yang dijadikan sebagai representasi dari proses yang dilakukan. 
+   - Pseudo code : penulisan algoritma yang menyerupai kode programan. 
    
-- **Contoh algoritma sederhana** :
-    Perhitungan Luas Persegi Panjang
-1. Masukkan panjang 
-2. Masukkan lebar
-3. Luas persegi panjang adalah panjang * lebar
-4. Tampilkan luas persegi panjang 
+- #### Contoh algoritma sederhana** :
+   **Menampilkan deret angka genap sampai 10**
+   - Siapkan i = 1
+   - Apakah i <= 10 dan bilangan genap ?
+   - Jika ya, ke no 5
+   - Jika tidak, ke no 8
+   - Tampilkan i
+   - Jumlahkan i dengan 1
+   - Kembali ke no 2
+   - Proses selesai
    
-- **Penerapan algoritma luas persegi panjang ke dalam bahasa pemrograman C++**
+- #### Penerapan algoritma luas persegi panjang ke dalam bahasa pemrograman C++
 
 ```
 #include <iostream>
@@ -187,7 +207,7 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
   }
   ```
 
-- **Penerapan algoritma urutan bilangan genap sampai 10 ke dalam bahasa pemrograman javascript**
+- #### Penerapan algoritma urutan bilangan genap sampai 10 ke dalam bahasa pemrograman javascript
 
  ```
 let i= 1;
