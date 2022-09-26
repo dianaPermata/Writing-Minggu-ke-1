@@ -47,8 +47,6 @@
    - Git log : digunakan untuk melihat history perubahan pada file atau riwayat commit yang sudah dijalankan.
    - Git diff : digunakan untuk melihat detail perubahan.
    - Git checkout :digunakan untuk kembali ke commit tertentu atau berpindah branch lain.
-   - Git reset : digunakan untuk reset files ke sebuah commit, perubahan di branch yang dihapus menjadi `untracked file`.
-   - Git revert : digunakan untuk undo commit, perubahan disimpan dalam commit. Git revert akan membatalkan semua perubahan yang ada tanpa menghapus commit terakhir.
    - Git branch : digunakan untuk membuat branch.
    - Git push origin : untuk mempublish file atau aplikasi ke github.
 
