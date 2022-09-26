@@ -45,8 +45,6 @@
    - Git add : digunakan untuk menambahkan file ke staging. Bisa menggunakan git add. atau git add index.html.
    - Git commit : untuk melakukan commit atau menyimpan perubahan pada version control pada git. 
    - Git log : digunakan untuk melihat history perubahan pada file atau riwayat commit yang sudah dijalankan.
-   - Git diff : digunakan untuk melihat detail perubahan.
-   - Git checkout :digunakan untuk kembali ke commit tertentu atau berpindah branch lain.
    - Git branch : digunakan untuk membuat branch.
    - Git push origin : untuk mempublish file atau aplikasi ke github.
 
