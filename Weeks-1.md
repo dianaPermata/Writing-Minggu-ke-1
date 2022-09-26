@@ -304,25 +304,42 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
 	- Flowchart atau diagram alir : penyajian algoritma dengan tampilan visual yang menggunakan simbol bangun datar yang dijadikan sebagai representasi dari proses yang dilakukan. 
    - Pseudo code : penulisan algoritma yang menyerupai kode programan. 
    
-- #### Contoh algoritma sederhana** :
-   **Perhitungan luas persegi panjang**
-   - Masukkan Panjang
-   - Masukkan lebar
-   - Luas persegi panjang= panjang * lebar
-   - Tampilkan hasil luas persegi panjang.
-   
+- #### Contoh algoritma sederhana luas persegi panjang:
+  
+    - Deskripsitif :  
+      - Masukkan Panjang & lebar
+      - Luas persegi panjang= panjang * lebar
+      - cetak hasil luas persegi panjang.
+      - Selesai
+    
+    - Flowchart : 
+	  
+	  ![cha](https://user-images.githubusercontent.com/113364526/192212120-3c7ae9aa-9305-4bad-8a5b-a7d6d7ea6576.png)
+
+    - Pseudocode : 
+	  
+	  ``` 
+	    Menghitung luas_persegi_panjang
+	      deklarasi
+	      p = integer;
+	      l= integer;
+	  
+	      read(p,l)
+	      luas = p*l
+	      write(luas)
+	      end
+	   ```
+	     
 - #### Penerapan algoritma perhitungan luas persegi panjang ke dalam bahasa pemrograman C++
 
 ```
 #include <iostream>
   using namespace std;
   int main (){
-  int p, l;
-  cout<<"Masukkan panjang = ";
-  cin>>p;
-  cout<<"Masukkan lebar= ";
-  cin>>l;
-  cout<<"Luas Persegi panjang = "; cout<<(p*l)
+  int p = 10; 
+  int l = 6;
+  
+  cout<<"Luas Persegi panjang = "; cout<<(p*l);
   }
   ```
 
