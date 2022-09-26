@@ -339,7 +339,7 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
   int p = 10; 
   int l = 6;
   
-  cout<<"Luas Persegi panjang = "; cout<<(p*l);
+  cout<<(p*l);
   }
   ```
 
