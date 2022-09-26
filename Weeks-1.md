@@ -20,7 +20,7 @@
    - Touch : untuk membuat sebuah file.
    - Mkdir : untuk membuat sebuah direktori.
    - Head : untuk melihat beberapa line awal dari sebuah file text.
-   - Tail : untuk melihat beberapa line awal dari sebuah file text. 
+   - Tail : untuk melihat beberapa line akhir dari sebuah file text. 
    - Cat : untuk melihat isi sebuah file.
    - Cp : mencopy file atau cp-R directory.
    - Mv : untuk memindahkan file atau mv-R directory. Selain itu juga dapat digunakan untuk rename.
