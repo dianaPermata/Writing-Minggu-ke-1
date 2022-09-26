@@ -8,7 +8,7 @@
 - #### User dan komputer dihubungkan dengan namanya terminal, yaitu tempat/aplikasi dimana user dapat mengetikan atau memberikan suatu perintah. Disinilah tempat  digunakan untuk mengakses CLI. 
 
 - #### **File system structure** 
-  <div align="justify"> adalah struktur yang mengatur bagaimana data disimpan di dalam sebuah system. Dalam menyusun file dan direktori pada sistem operasi Windows dan user menggunakan struktur yang bentuknya mirip tree atau disebut dengan file system tree. 
+  <div align="justify"> adalah struktur yang mengatur bagaimana data disimpan di dalam sebuah system. Dalam menyusun file dan direktori pada sistem operasi Windows dan unix-like menggunakan struktur yang bentuknya mirip tree atau disebut dengan file system tree. 
  ![Picture1](https://user-images.githubusercontent.com/113364526/191979262-6a8b991d-2e25-4503-b6cb-374249390a3d.png)
 
 - #### **Command untuk navigasi** :
