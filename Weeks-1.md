@@ -5,7 +5,7 @@
    <div align="justify">merupakan shell berbasis teks yang digunakan untuk menjalankan program, mengelola file komputer, dan berinteraksi dengan komputer. 
 - #### **Shell** 
   <div align="justify">adalah  program yang menerima perintah, kemudian meneruskan perintah tersebut ke system untuk dieksekusi. 
-- #### User dan komputer dihubungkan dengan namanya terminal, yaitu tempat/aplikasi dimana user dapat mengetikan atau memberikan suatu perintah. Disinilah tempat  digunakan untuk mengakses CLI. 
+- #### User dan komputer dihubungkan dengan namanya terminal, yaitu tempat/aplikasi dimana user dapat mengetikan atau memberikan suatu perintah. Disinilah tempat shell berperan. 
 
 - #### **File system structure** 
   <div align="justify"> adalah struktur yang mengatur bagaimana data disimpan di dalam sebuah system. Dalam menyusun file dan direktori pada sistem operasi Windows dan unix-like menggunakan struktur yang bentuknya mirip tree atau disebut dengan file system tree. 
