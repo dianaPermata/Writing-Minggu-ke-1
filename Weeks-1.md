@@ -38,7 +38,7 @@
   <div align="justify"> Dengan menggunakan Git dann Github, kita bisa berkolaborasi mengerjakan proyek yang sama dengan orang lain tanpa harus repot  copy paste folder aplikasi yang terupdate. Selain itu juga, kita tidak perlu menunggu rekan dalam satu tim menyelesaikan program dahulu untuk berkolaborasi. Kita juga bisa membuat file di dalam proyek yang sama atau membuat code di file yang sama dan menyatukannya saat sudah selesai.
    
  - #### Command di dalam git & github
-   - Git config : 
+   - Git config : untuk pengaturan konfigurasi. 
    - Git init : untuk membuat repository baru. 
    - Git clone : perintah yang digunakan untuk membuat salinan repository lokal
    - Git status : sebuah perintah yang digunakan untuk memeriksa kondisi repository mengalami perubahan atau tidak.
