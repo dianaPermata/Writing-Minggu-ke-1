@@ -146,9 +146,9 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
      - **Inline CSS**
        <div align="justify"> Dengan memberikan attribute style kepada sebuah element dengan menyisipkannya langsung di dalam element HTML tersebut.
      - **Internal CSS**
-       <div align="justify"> Dengan menggunakan element <style> untuk menyisipkan kode CSS. Element <style> diletakkan di dalam element  ```<head>``` .
+       <div align="justify"> Dengan menggunakan element style untuk menyisipkan kode CSS. Element style diletakkan di dalam element head.
      - **External CSS**
-       <div align="justify"> Dengan cara menyisipkan kode CSS dengan cara membuat file CSS terpisah, dan lalu menyambungkannya dengan file HTML dengan menggunakan element ```<link>```. Element ```<link>``` tersebut diletakkan di dalam element ```<head>```. 
+       <div align="justify"> Dengan cara menyisipkan kode CSS dengan cara membuat file CSS terpisah, dan lalu menyambungkannya dengan file HTML dengan menggunakan element link. Element link tersebut diletakkan di dalam element head. 
  - #### CSS Syntax 
    <div align="justify"> Adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value. 
       
@@ -162,10 +162,10 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
 	   
 ## **Javascript Dasar**
 - #### Apa itu Javascript ?
-  <div align="justify"> Adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website. Javascript juga dapat membuat website menjadi interaktif dan dinamis. Sjavascript dijalankan melalui browser pada devise setiap user dan code editor. 
+  <div align="justify"> Adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website. Javascript juga dapat membuat website menjadi interaktif dan dinamis. javascript dijalankan melalui browser pada device setiap user dan code editor. 
 
 - #### Syntax dan statement 
-  <div align="justify"> Syntax bisa dianalogikan seperti kosa kata (vocabulary) dan tata cara (grammar) pada bahasa pemograman. Kita menggunakan syntax tertentu untuk membuat statement program, instruksi untuk dijalankan/dieksekusi oleh web browser, compiler, ataupun intrepreter. Contoh syntax javascript : 
+  <div align="justify"> Syntax bisa dianalogikan seperti kosakata (vocabulary) dan tatacara (grammar) pada bahasa pemograman. Kita menggunakan syntax tertentu untuk membuat statement program, instruksi untuk dijalankan/dieksekusi oleh web browser, compiler, ataupun intrepreter. Contoh syntax javascript : 
 	  
   - Alert()
   - prompt()
@@ -192,7 +192,7 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
 	 ```
 	   let nama = "Diana Permata Putri"
 	 ```
-  3. Boolean :  tipe data yang hanya mempunyai 2 buah nilai yait ``` true``` (benar) or  ```false```  (salah).
+  3. Boolean :  tipe data yang hanya mempunyai 2 buah nilai yaitu ``` true``` (benar) or  ```false```  (salah).
 	 
 	 ```
 	    let a=true;
@@ -223,7 +223,7 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
 	   console.log(b); // "Namaku Diana Permata Putri"
 	 ```
 	 
-   6. Object : sebuah kumpulan pasangan properti dan nilai. Seperti objek dalam kehidupan sehari-hari saja. Misalnya objek ``` jeruk ``` memiliki properti warna dengan nilai ``` orange ``` . 
+   6. Object : sebuah kumpulan pasangan properti dan nilai. Seperti objek dalam kehidupan sehari-hari saja, miisalnya objek ``` jeruk ``` memiliki properti warna dengan nilai ``` orange ``` . 
 	 
 	 ```
 	   let manusia = {
@@ -253,7 +253,7 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
 	   
 	   ```
                - Lebih besar dari  (>)
-	       - Lebih kecil dari (<)
+	           - Lebih kecil dari (<)
                - Lebih kecil atau sama dengan (<=)
                - Lebih besar atau sama dengan (>=)
                - Sama dengan (===)
@@ -276,8 +276,6 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
     - **if...else if statement** : Digunakan apabila ada beberapa kondisi dan beberapa keputusan yang dijalankan.
     - **Truthy & falshy** : digunakan untuk mengecek apakah variabel telah terisi namun tidak mementingkan nilainya.
     - **Switch case conditional** :  digunakan jika kondisi dan percabangan terlalu banyak. akan tetapi switch case tidak bisa lebih dari 1 kondisi. 
-    <div align="justify"> Ternary operator merupakan short-syntax dari statement if … else.
-
 	   
  - #### Looping  
      <div align="justify"> Adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai. Ada beberapa jenis loop di javascript, yaitu : 
