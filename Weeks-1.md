@@ -154,12 +154,27 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
       
  ![Screenshot 2022-09-25 121507](https://user-images.githubusercontent.com/113364526/192129430-7bbc8913-4a98-4587-b31e-231e07176f92.png)
       
-     - p merupakan selector berupa element HTML yang akan diubah. 
-     - color merupakan properti berupa bagian mana dari element HTML yang akan diubah. 
-     - value merupakan nilai/hiasan. 
-	   
-	   
-	   
+    - p merupakan selector berupa element HTML yang akan diubah. 
+    - color merupakan properti berupa bagian mana dari element HTML yang akan diubah. 
+    - value merupakan nilai/hiasan. 
+
+- #### Flexbox
+    <div align="justify"> Flexbox adalah cara untuk mengatur layout. Flexbox direkomendasikan karena penggunaannya yang mudah dan didukung oleh kebanyakan browser. Flexbox memiliki 1 parent/container dan bisa beberapa child/item.
+    
+   - Flex direction : flex-direction digunakan untuk mengatur letak item child.
+   - Flex wrap : flex wrap secara default akan membuat tata letak item children dalam 1 line saja. flex akan menyesuaikan space yang ada.
+   - Flex-flow : digunakan sebagai shortcut untuk set up flex-direction dan flex-wrap bersamaan.
+   - Order : berfungsi untuk ordering item mana yang ingin kita atur posisinya berdasarkan urutan order.
+   - Justify-content digunakan untuk mengatur tata letak dan space antar item child secara horizontal atau main axis.
+   - Flex start : poisi item akan dikemas pada bagian awal flex-direction 
+   - Flex end : poisi item akan dikemas pada bagian akhir.
+   - Center : poisi item akan dikemas ke bagian tengah baris.
+   - Space beetwen : akan memberi ruang pada setiap dua item yang bersebelahan.
+   - Space-around : akan memberi ruang pada sekitar tiap item. 
+   - Flex-grow : dapat mengatur size suatu item child pada flexbox.
+   - flex-shrink : properti yang membuat size suatu item child mengecil secara relatif terhadap item child yang lainnya.
+
+	  	   
 ## **Javascript Dasar**
 - #### Apa itu Javascript ?
   <div align="justify"> Adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website. Javascript juga dapat membuat website menjadi interaktif dan dinamis. javascript dijalankan melalui browser pada device setiap user dan code editor. 
