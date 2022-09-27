@@ -246,7 +246,7 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
     - Gunakan camelcase untuk penamaan yang lebih dari 1 kata
 
 - #### Operator 
-     - Assignent operator (=) digunakan untuk menyimpan sebuah nilai pada variabel. 
+     - Assignment operator (=) digunakan untuk menyimpan sebuah nilai pada variabel. 
      - Increment (++) dan decrement (--) digunakan untuk menambah atau mengurangi sebesar 1.
      - Arithmetic operator (operator matematika) yang terdiri dari penambahan (+), pengurangan (-), perkalian (*), Pembagian (/), modulus (%). 
      - Comparison operator adalah operator yang membandingkan satu nilai dengan nilai lainnya. Comparison operator melibatkan ``` true ``` dan ``` false ``` . simbol dari comparison operator : 
