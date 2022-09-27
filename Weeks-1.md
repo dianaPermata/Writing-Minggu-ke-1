@@ -60,38 +60,42 @@
 - #### Dasar - dasar HTML 
    
     - Kita bisa menuliskan HTML tanpa structure dan kita bisa tetap menjalankan nya tetapi untuk menjalankannya dengan baik kita perlu HTML Structure. HTML structure atau yang disebut dengan kerangka HTML seperti di bawah ini : 
-Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari HTML yang digunakan dan harus dideklarasi sebelum tag ```<html>``` dan 3 tag utama, yaitu ```<html>,<head>, dan <body>``` : 
-       - ```<html></html>``` adalah root element dari halaman HTML. Semua HTML tag lainnya harus dibungkus dengan tag ini.
-       - ```<head></head>``` berisi ```<meta>, <title>```, konten css/js internal maupun link ke file css/js eksternal. 
-       - ```<body></body>```berisi konten website yang ingin ditampilkan pada browser.
-   
-       ```
-          <!DOCTYPE html>
-          <html lang="en">
-          <head>
-               <meta charset="UTF-8">
-               <meta http-equiv="X-UA-Compatible" content="IE=edge">
-               <meta name="viewport" content="width=device-width, initial- scale=1.0">
-               <title>Document</title>
-           </head>
-           <body>
-           
-           </body>
-           </html>
-	   ```
+	       
 	   
-     - **HTML Element** merupakan sebuah komponen dalam halaman web, bisa berupa paragraf, judul, atau gambar. 
+                    
+                         <!DOCTYPE html>
+                         <html lang="en">
+                         <head>
+                              <meta charset="UTF-8">
+                              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                              <meta name="viewport" content="width=device-width, initial- scale=1.0">
+                              <title>Document</title>
+                        </head>
+                        <body>
+           
+                        </body>
+                        </html>
+	            
+	   
+	   
+Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari HTML yang digunakan dan harus dideklarasi sebelum tag ```<html>``` dan 3 tag utama, yaitu ```<html>,<head>, dan <body>``` : 
+	   
+       - <html></html> adalah root element dari halaman HTML. Semua HTML tag lainnya harus dibungkus dengan tag ini.
+       - <head></head> berisi <meta>, <title>, konten css/js internal maupun link ke file css/js eksternal. 
+       - <body></body>berisi konten website yang ingin ditampilkan pada browser.
+	   
+  - **HTML Element** merupakan sebuah komponen dalam halaman web, bisa berupa paragraf, judul, atau gambar. 
 	   
 	   ```
 	   <p style color="red">Hello World</p>
 	   ```
 	   
-         Pada source code di atas HTML elemen terdiri dari : 
+     Pada source code di atas HTML elemen terdiri dari : 
 	   
-          - Opening tag (tag pembuka)
-          - Closing tag (tag penutup)
-          - Attribute 
-          - Konten
+       - Opening tag (tag pembuka)
+       - Closing tag (tag penutup)
+       - Attribute 
+       - Konten
    
    - Selain HTML elemen, juga terdapat empty HTML element dimana memiliki Self-closing Tag, yang hanya memiliki Opening Tag (tag pembuka) dengan garis miring sebelum kurung tutup. Contohnya adalah ``` <br /> atau <img />. ```
    
