@@ -79,11 +79,14 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
            
            </body>
            </html>
+	   ```
+	   
          Pada source code di atas HTML elemen terdiri dari : 
-           - Opening tag (tag pembuka)
-           - Closing tag (tag penutup)
-           - Attribute 
-           - Konten
+	   
+          - Opening tag (tag pembuka)
+          - Closing tag (tag penutup)
+          - Attribute 
+          - Konten
    
    - Selain HTML elemen, juga terdapat empty HTML element dimana memiliki Self-closing Tag, yang hanya memiliki Opening Tag (tag pembuka) dengan garis miring sebelum kurung tutup. Contohnya adalah ``` <br /> atau <img />. ```
    
