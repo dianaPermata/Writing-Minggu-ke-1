@@ -65,7 +65,6 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
        - ```<head></head>``` berisi ```<meta>, <title>```, konten css/js internal maupun link ke file css/js eksternal. 
        - ```<body></body>```berisi konten website yang ingin ditampilkan pada browser.
    
-    - **HTML Element** merupakan sebuah komponen dalam halaman web, bisa berupa paragraf, judul, atau gambar. struktur dari HTML elemen seperti di bawah ini : 
        ```
           <!DOCTYPE html>
           <html lang="en">
@@ -79,6 +78,12 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
            
            </body>
            </html>
+	   ```
+	   
+     - **HTML Element** merupakan sebuah komponen dalam halaman web, bisa berupa paragraf, judul, atau gambar. 
+	   
+	   ```
+	   <p style color="red">Hello World</p>
 	   ```
 	   
          Pada source code di atas HTML elemen terdiri dari : 
