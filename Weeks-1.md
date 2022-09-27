@@ -236,9 +236,9 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
 - #### Variabel
    <div align="justify"> Adalah container/tempat untuk menyimpan sebuah nilai. Di dalam bahasa pemrograman javascript terdapat 3 variable yaitu
   
-     - Var : 
-     - Let : 
-     - Const :
+     - Var akan mendeklarasikan variabel secara global atau pun secara lokal pada sebuah fungsi. 
+     - Let akan mendeklarasikan variabel dengan scope terbatas pada blok dan pernyataan dimana mereka digunakan.
+     - Const akan mendeklarasikan variabel dengan scope terbatas pada blok dan pernyataan dimana mereka digunakan akan tetapi data/valuenya tidak dapat diubah. 
    <div align="justify"> Aturan penamaan variabel : 
 	   
     - Harus mendeskripsikan tentang data yang disimpan
