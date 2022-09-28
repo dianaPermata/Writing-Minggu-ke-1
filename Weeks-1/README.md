@@ -166,9 +166,9 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
    - Flex-flow : digunakan sebagai shortcut untuk set up flex-direction dan flex-wrap bersamaan.
    - Order : berfungsi untuk ordering item mana yang ingin kita atur posisinya berdasarkan urutan order.
    - Justify-content digunakan untuk mengatur tata letak dan space antar item child secara horizontal atau main axis.
-   - Flex start : poisi item akan dikemas pada bagian awal flex-direction 
-   - Flex end : poisi item akan dikemas pada bagian akhir.
-   - Center : poisi item akan dikemas ke bagian tengah baris.
+   - Flex start : posisi item akan dikemas pada bagian awal flex-direction 
+   - Flex end : posisi item akan dikemas pada bagian akhir.
+   - Center : posisi item akan dikemas ke bagian tengah baris.
    - Space beetwen : akan memberi ruang pada setiap dua item yang bersebelahan.
    - Space-around : akan memberi ruang pada sekitar tiap item. 
    - Flex-grow : dapat mengatur size suatu item child pada flexbox.
@@ -303,7 +303,7 @@ Dalam kerangka HTML terdapat ```<!DOCTYPE>``` syntax mendefinisikan versi dari H
 	       
 ## **Algoritma**
 - #### Algoritma 
-  <div align="justify"> Adalah urutan logis untuk memecahkan masalah secara logis dan sistematis. Dengan kata lain, dalam kehidupan sehari - hari kita sudah menerapkan algoritma untuk memecahkan suatu masalah. 
+  <div align="justify"> Adalah urutan logis untuk memecahkan masalah. Dengan kata lain, dalam kehidupan sehari - hari kita sudah menerapkan algoritma untuk memecahkan suatu masalah. 
 
 - #### Manfaat algoritma : 
    - Membantu menyederhanakan suatu program yang rumit dan juga besar.
