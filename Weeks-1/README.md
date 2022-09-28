@@ -1,4 +1,4 @@
-# Writing-Minggu-ke-1
+# Writing-Weeks-1
 ## **Unix Command Line Interface**
 
 - #### **Command line interface** 
