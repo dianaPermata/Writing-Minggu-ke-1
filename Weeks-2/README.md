@@ -222,35 +222,35 @@
         ```
 
 - #### DOM manipulation 
-    1. Element.innerHTML,  dapat kita gunakan untuk mengubah konten HTML di dalam sebuah element.
+   - Element.innerHTML,  dapat kita gunakan untuk mengubah konten HTML di dalam sebuah element.
         ```
             app.innerHTML = "<h1>Hello World</h1>"
         ```
-    2. Element.inner text , untuk menentukan dan mengembalikan nilai konten dari suatu element dalam bentuk text atau string. 
+    - Element.inner text , untuk menentukan dan mengembalikan nilai konten dari suatu element dalam bentuk text atau string. 
         ```
             app.innerText = "<h1>apa kabar ??</h1>"
         ````
-    3. Element .createElement(), digunakan untuk membuat elemen. 
+    - Element .createElement(), digunakan untuk membuat elemen. 
         ```
             let p = document.createElement("p")
             p.innerText = "ini adalah paragraf"
         ```
-    4. Element.append, digunakan untuk menambahkan element ke dalam parents baik berupa object node maupun DOM String.
+    - Element.append, digunakan untuk menambahkan element ke dalam parents baik berupa object node maupun DOM String.
         ```
             app.append(p)
         ```
-    5. .appendChild, digunakan untuk menambahkan element ke dalam parents baik berupa object node tetapi tidak bisa menggunakan DOM String.
+    - .appendChild, digunakan untuk menambahkan element ke dalam parents baik berupa object node tetapi tidak bisa menggunakan DOM String.
         ```
             let p2 = document.createElement("p")
             p2.innerText = "paragraf ke-2"
             app.appendChild(p2)
         ```
-    6. Remove(), digunakan untuk menghapus elemen (atau node) dari dokumen
+    - Remove(), digunakan untuk menghapus elemen (atau node) dari dokumen
         ```
             let end = document.getElementById("end")
             end.remove()
         ```
-    7. link. attribute, digunakan untuk melihat dan mengecek attribute apa yang digunakan pada file html. 
+    - link. attribute, digunakan untuk melihat dan mengecek attribute apa yang digunakan pada file html. 
    
         ```
             let link = document.getElementsByClassName("link")[0]
@@ -258,28 +258,28 @@
 
             console.log(link.attributes) // // untuk cek attribute
         ```
-    8. SetAttribute, digunakan untuk menambahkan attribute
+    - SetAttribute, digunakan untuk menambahkan attribute
         ```
             link.setAttribute("id", "google") // menambahkan attribute
         ```
-    9. link.style, digunakan untuk memberikan styling pada file html dengan DOM. 
+    - link.style, digunakan untuk memberikan styling pada file html dengan DOM. 
         ```
             link.style.color = "black"
             link.style.border = "1px solid black"
             link.style.padding = "5px 20px"
             link.style.backgroundColor = "aqua"
         ```
-    10. link.style.removeProperty(), digunakan untuk menghapus style properti. 
+    - link.style.removeProperty(), digunakan untuk menghapus style properti. 
         ```
             link.style.removeProperty("border")
         ```
-    11. Mendapatkan style dari element
+    - Mendapatkan style dari element
         ```
             let tess = document.getElementById("tess")
             let tessStyle = getComputedStyle(tess)
             console.log(tessStyle.height)
         ```
-    12. List of class, Menambahkan class, Menghapus class
+    - List of class, Menambahkan class, Menghapus class
         ```
             let container = document.getElementsByClassName("container")[0]
             console.log(container.classList); // [] list of class
@@ -328,8 +328,4 @@
             alert("ini adalah paragraf")
         })
         ```
-
-
-
-
-
+		
