@@ -239,7 +239,7 @@
         ```
             app.append(p)
         ```
-    - .appendChild, digunakan untuk menambahkan element ke dalam parents baik berupa object node tetapi tidak bisa menggunakan DOM String.
+    - Element.appendChild, digunakan untuk menambahkan element ke dalam parents baik berupa object node tetapi tidak bisa menggunakan DOM String.
         ```
             let p2 = document.createElement("p")
             p2.innerText = "paragraf ke-2"
