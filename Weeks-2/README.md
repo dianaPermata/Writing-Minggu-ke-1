@@ -180,43 +180,43 @@
     <div align="justify"> Objek DOM di javascript bernama document. Objek ini berisi segala hal yang kita butuhkan untuk memanipulasi HTML.Objek ini berisi kumpulan fungsi dan atribut berupa objek dari elemen HTML yang bisa digambarkan dalam bentuk tree.
 - ####  cara mengakses elemen yang spesifik, terdapat beberapa fungsi yang bisa digunakan:
 
-    1. getElementById(), fungsi untuk memilih elemen berdasarkan atribut id.
+    - getElementById(), fungsi untuk memilih elemen berdasarkan atribut id.
         ```
             let title = document.getElementById("title")
         ```
-    2. getElementByClassName(), fungsi untuk memilih elemen berdasarkan atribut class.
+    - getElementByClassName(), fungsi untuk memilih elemen berdasarkan atribut class.
         ```
             let list = document.getElementsByClassName("list")
         ```
-    3. getElementByTagName(), fungsi untuk memilih elemen berdasarkan nama tag.
+    - getElementByTagName(), fungsi untuk memilih elemen berdasarkan nama tag.
         ```
             let itemBytag = document.getElementsByTagName("li")
         ```
-    4. querySelector(), fungsi untuk memilih elemen berdasarkan query.
+    - querySelector(), fungsi untuk memilih elemen berdasarkan query.
         ```
             let listQuery = document.querySelector(".list")
         ```
-    5. querySelectorAll(), fungsi untuk memilih elemen berdasarkan query.
+    - querySelectorAll(), fungsi untuk memilih elemen berdasarkan query.
         ```
             let itemQuery = document.querySelectorAll(".item")
         ```
-    6. closest, untuk mengambil parents terdekat, atau induk elemen cocok dengan pemilih. Jika tidak ada parents yang ditemukan, metode mengembalikan null. 
+    - closest, untuk mengambil parents terdekat, atau induk elemen cocok dengan pemilih. Jika tidak ada parents yang ditemukan, metode mengembalikan null. 
         ```
             let itemQuery = document.querySelector(".item")
             console.log(itemQuery); 
             console.log(itemQuery.closest(".list"));
         ```
-    7. Parent elements, mengembalikan elemen induk dari elemen yang ditentukan, properti ini akan mengembalikan null jika simpul induk bukan simpul elemen.
+    - Parent elements, mengembalikan elemen induk dari elemen yang ditentukan, properti ini akan mengembalikan null jika simpul induk bukan simpul elemen.
         ```
             let itemQuery = document.querySelector(".item")
             console.log(itemQuery); 
             console.log(itemQuery.parentElement); 
         ```
-    8.  next elemen sibling, untuk mengembalikan node berikutnya dari node yang ditentukan sebagai objek Node atau null jika node yang ditentukan adalah yang terakhir dalam daftar.
+    -  next elemen sibling, untuk mengembalikan node berikutnya dari node yang ditentukan sebagai objek Node atau null jika node yang ditentukan adalah yang terakhir dalam daftar.
         ```
            document.getElementById("item1").nextSibling.innerHTML;
         ```
-    9.  previous elemen sibling, mengembalikan konten HTML dari sibling sebelumnya dari item daftar.
+    -  previous elemen sibling, mengembalikan konten HTML dari sibling sebelumnya dari item daftar.
         ```
              document.*getElementById("item2").previousSibling.innerHTML;
         ```
