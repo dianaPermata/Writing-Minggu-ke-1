@@ -1,6 +1,6 @@
 # Writing-Weeks-3
 
-## **Array & Multidemensial**
+## **Array & Multidemensional**
 
 - ### Array
    <div align="justify"> Array adalah tipe data list order yang dapat menyimpan tipe data apapun di dalamnya. Array dapat menyimpan tipe data String, Number, Boolean, dan lainnya.
